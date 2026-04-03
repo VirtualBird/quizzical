@@ -50,6 +50,7 @@ button{
 
 .quiz{
     margin: 40px 75px 0px 75px;
+    max-width: 800px;
 }
 
 .quiz-question{
