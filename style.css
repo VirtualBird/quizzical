@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #293264;
+    background-color: #F5F7FB;
+    font-family: Inter, sans-serif, Arial, Helvetica;
+}
+
+h1{
+    margin: 0;
+    font-size: 31.25px;
+    font-weight: 700;
+    font-family: Karla;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Karla;
+}
+
+p{
+    margin-top: 7px;
+    margin-bottom: 29px;
+}
+
+button{
+    border: none;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    cursor: pointer;
+}
+
+.start-quiz-btn{
+    border-radius: 15px;
+    height: 52px;
+    width: 193px;
+}
+
+.start-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz{
+    margin: 40px 75px 0px 75px;
+}
+
+.quiz-question{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DBDEF0;
+}
+
+.quiz-btns-container{
+    display: flex;
+    gap: 12px;
+}
+
+.quiz-btn{
+    font-size: 10.24px;
+    height: auto;
+    width: auto;
+    padding: 4px 8px;
+    color: #293264;
+    background-color: #F5F7FB;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+}
+
+.quiz-btn.selected{
+    background-color: #D6DBF5;
+    border: 1px solid #D6DBF5;
+}
+
+.quiz-btn:disabled{
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.quiz-btn.selected:disabled{
+    background-color: #F8BCBC;
+    border-color: #F8BCBC;
+}
+
+.quiz-btn.correct:disabled{
+    opacity: 100%;
+    background-color: #94D7A2;
+    border-color: #94D7A2;
+}
+
+.quiz .check-answers-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 10.24px;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+}
+
+.quiz-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+    margin-bottom: 32px;
+    gap: 20px
+}
+
+.play-again-btn{
+    display: block;
+    border-radius: 10px;
+    padding: 9px 28px;
+    font-size: 10.24px;
+}
+
+.quiz-results p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 12.8px;
+}
